@@ -472,12 +472,6 @@ parser.add_argument(
     help="path to realesrgan executable"
 )
 parser.add_argument(
-    "--detail_steps",
-    type=int,
-    default=150,
-    help="number of sampling steps when detailing",
-)
-parser.add_argument(
     "--detail_scale",
     type=float,
     default=10,
